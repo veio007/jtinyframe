@@ -1,4 +1,5 @@
 jtinyframe
-    - util 常用工具
+    - util 常用库封装
+    - tool 常用小工具 主要是能独立运行的小工具 帮助排查问题
     - base rpc底层框架
     - data 数据访问 缓存 db nosql mq
