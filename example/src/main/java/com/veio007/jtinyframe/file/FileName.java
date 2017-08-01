@@ -4,7 +4,7 @@ import org.apache.commons.io.FilenameUtils;
 
 public class FileName {
     public static void main(String[] args) {
-        String file = "c:\\dir\\file.txt";
+        String file = "/app/md/";
         System.out.println(FilenameUtils.getFullPath(file));
         System.out.println(FilenameUtils.getPath(file));
         System.out.println(FilenameUtils.getBaseName(file));

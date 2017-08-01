@@ -23,6 +23,8 @@ import org.springframework.stereotype.Component;
  * 这个包括了AspectJWeavingEnabler, ConfigurationClassPostProcessor, CustomAutowireConfigurer等等
  * 非常有用的工厂后处理器　　接口的方法。工厂后处理器也是容器级的。在应用上下文装配配置文件之后立即调用
 
+
+ ClassPathBeanDefinitionScanner.doScan 扫描bean
  */
 @Component
 public class LifeCycleTest extends InstantiationAwareBeanPostProcessorAdapter

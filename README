@@ -3,3 +3,4 @@ jtinyframe
     - tool 常用小工具 主要是能独立运行的小工具 帮助排查问题
     - base rpc底层框架
     - data 数据访问 缓存 db nosql mq
+    - component 常用组件服务 视频播放..
